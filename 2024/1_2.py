@@ -9,8 +9,6 @@ two = []
 sim = int()
 
 for line in text.split('\n'):
-#for line in example_text.strip().split('\n'):
-    #print(line)
     one.append(int(line.split()[0]))
     two.append(int(line.split()[1]))
 
